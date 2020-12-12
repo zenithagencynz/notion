@@ -1,4 +1,4 @@
-<div id='product-component-1607773392085'></div>
+<div id='product-component-1607773590586'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 (function () {
@@ -27,53 +27,40 @@
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: '4848397582383',
-        node: document.getElementById('product-component-1607773392085'),
+        node: document.getElementById('product-component-1607773590586'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
     "styles": {
       "product": {
         "@media (min-width: 601px)": {
-          "max-width": "100%",
-          "margin-left": "0",
+          "max-width": "calc(25% - 20px)",
+          "margin-left": "20px",
           "margin-bottom": "50px"
-        },
-        "text-align": "left"
-      },
-      "title": {
-        "font-size": "26px"
+        }
       },
       "button": {
         "font-size": "16px",
         "padding-top": "16px",
         "padding-bottom": "16px",
         "border-radius": "0px",
-        "padding-left": "138px",
-        "padding-right": "138px"
+        "padding-left": "100px",
+        "padding-right": "100px"
       },
       "quantityInput": {
         "font-size": "16px",
         "padding-top": "16px",
         "padding-bottom": "16px"
-      },
-      "price": {
-        "font-size": "18px"
-      },
-      "compareAt": {
-        "font-size": "15.299999999999999px"
-      },
-      "unitPrice": {
-        "font-size": "15.299999999999999px"
       }
     },
     "buttonDestination": "checkout",
-    "layout": "horizontal",
     "contents": {
       "img": false,
-      "imgWithCarousel": true,
-      "description": true
+      "button": false,
+      "buttonWithQuantity": true,
+      "title": false,
+      "price": false
     },
-    "width": "100%",
     "text": {
       "button": "Buy now"
     }
@@ -107,8 +94,8 @@
         "padding-top": "16px",
         "padding-bottom": "16px",
         "border-radius": "0px",
-        "padding-left": "138px",
-        "padding-right": "138px"
+        "padding-left": "100px",
+        "padding-right": "100px"
       },
       "quantityInput": {
         "font-size": "16px",
